@@ -115,10 +115,7 @@
 
 
 /* ----------------- Fonts----------------- */
-@font-face {
-    font-family: 'Zilla Slab' ;
-    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Zilla+Slab&display=swap");
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Zilla+Slab&display=swap');
 
 /* ----------------- ETC ----------------- */
 .fixedP {
