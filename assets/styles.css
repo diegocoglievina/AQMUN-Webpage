@@ -1,0 +1,658 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* -----------------Scroll Bar----------------- */
+.sc5::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+.sc5::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background-color: #ffffff00;
+    
+}
+
+.sc5::-webkit-scrollbar-thumb {
+    background-color: #ff8400;
+    border-radius: 4px;
+}
+
+/* -----------------Colores----------------- */
+.anahuacColor {
+    color: #6B3F23;
+}
+
+.anahuacColor2 {
+    color: #FF8400;
+}
+
+.bg-light-white {
+    background-color: #f5f5f5d3;
+}
+
+.black-txt {
+    color: #26282ad5;
+}
+
+.bg-anahuac1 {
+    background-color: #6B3F23;
+}
+
+.bg-anahuac2 {
+    background-color: #FF8400;
+}
+
+.bg-light-black {
+    background-color: #26282ad5;
+}
+
+
+/* ----------------- Animaciones -----------------*/
+.animatedText {
+    letter-spacing: 0;
+    font-family: "Zilla Slab";
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: left;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: #ffffff00;
+    -webkit-animation: aitf 120s linear infinite;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+}
+
+@-webkit-keyframes aitf {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: 50% 100%;
+    }
+}
+
+
+/* ----------------- Texto ----------------- */
+
+.bigText {
+    font-family: "optima";
+    font-size: 2.25rem;
+}
+
+.FAQ {
+    width: 100%; 
+    background-color: #f5f5f5d3;
+    position: relative; 
+}
+
+.no-border {
+    border-width: 0ch;
+}
+
+.left {
+    text-align: left;
+    align-items: left;
+}
+
+/* ----------------- Fuentes ----------------- */
+
+.optima {
+    font-family: "ROBOTO";
+}
+
+.roboto {
+    font-family: "ROBOTO";
+    font-size: 2rem;
+}
+
+.zilla {
+    font-family: "Zilla Slab";
+    font-weight: 200;
+}
+
+
+/* ----------------- ETC ----------------- */
+.fixedP {
+    position: fixed;
+    z-index: 1100;
+}
+
+.navBar {
+    color: #26282ad5;
+}
+
+
+.navBar:hover {
+    scale: 1.05;
+    /*  time of transition*/
+    transition: 0.3s;
+
+}
+
+.aWordBox {
+    padding: 1.25rem;
+    margin: 1.25rem;
+    /* font-family: "optima"; */
+}
+
+.col-container {
+    height: auto;
+    width: 100%;
+    display: block;
+    /* Make the container element behave like a table */
+
+}
+
+.col {
+    margin: 0px;
+    /* Make elements inside the container behave like table cells */
+}
+
+
+/* ----------------- Committe Cards ----------------- */
+.displayCommittes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.comCard {
+    flex: auto auto;
+    margin: 1rem;
+    background-color: #f5f5f5d3;
+    height: fit-content;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Zilla Slab";
+}
+
+a:hover,
+a:active {
+    /* border-bottom: none; */
+}
+a:active {
+    color:#ffffff; 
+}
+
+a:focus {
+    border-bottom: none;
+
+}
+
+a img {
+    border: 0;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .comCard {
+        width: 30%;
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and () {
+    .paragraph {
+        font-size: small;
+    }
+}
+
+
+.commiteeName {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 4px 16px;
+    margin: 0 0 20px;
+    font-family: "Zilla Slab";
+    background-color: #FF8400;
+    color: #ffffff;
+    font-size: 1rem;
+    max-width: 85%;
+
+}
+
+.topicAB {
+    font-family: "Zilla Slab";
+    font-weight: 800;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.750);
+}
+
+.topicName {
+    font-size: 1rem;
+    font-family: "ROBOTO";
+    font-weight: 400;
+}
+
+#quote {
+    font-family: "Zilla Slab";
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 8rem;
+    background-color: #26282ad5; 
+}
+
+
+
+
+/* ----------------- ETC ----------------- */
+
+.navBarElement {
+    color: #26282ad5;
+    font-family: "Zilla Slab";
+    font-weight: 600;
+
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-decoration: none;
+}
+
+.landingPage {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.landingPageTitle {
+    font-family: "Zilla Slab";
+    font-weight: 500;
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 2px 8px 6px rgb(0 0 0 / 57%), 0px -5px 35px rgb(25 18 18 / 71%), -5px 7px 5px rgb(0 0 0 / 48%);
+}
+
+.subSubTitle {
+    font-family: "Zilla Slab";
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+    color: #FF8400;
+    font-weight: 500;
+}
+
+.subtitle {
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.750);
+    font-size: 2.25rem;
+    font-family: "Zilla Slab";
+
+}
+
+.leftText {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 44px;
+}
+
+.paragraph {
+    font-family: "ROBOTO";
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.750);
+    font-weight: 400;
+    text-align: justify;
+    line-break: normal;
+    line-height: 2em;
+}
+
+.pictureInText {
+    background-color: rgba(255, 132, 0, 0.8);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    min-width: auto;
+    width: 30%; 
+}
+
+.logoLandingPage {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 350px;
+    margin-left: 50px;
+}
+
+.saveTheDateImage {
+    object-fit: scale-down;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10;
+    padding-bottom: 10;
+}
+
+.greyButton {
+    background-color: #26282af1;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.85rem;
+    margin-top: 5%;
+    font-family: "Zilla Slab";
+    width: 30%;
+    font-weight: 100;
+}
+
+.registerButton {
+    background-color: #FF8400;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 0.85rem;
+
+    font-family: "Zilla Slab";
+    font-weight: 100;
+}
+
+.topicsLandingPage {
+    background-color: #f5f5f5d3;
+    border-radius: 8px;
+    padding: 1rem;
+    font-family: "Zilla Slab";
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.750);
+    text-align: center;
+
+}
+
+.saveTheDateText {
+    /* convert the following tailwind classes to css classes: white fs-l2 md-fs-l2 lh-2 bigText textShadow zilla pl-10*/
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-family: "Zilla Slab";
+    font-weight: 500;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.574), 0px -5px 35px rgba(255, 255, 255, 0.707), -5px 7px 5px rgba(0, 0, 0, 0.483);
+    line-height: 3rem;
+    margin-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.footer {
+    background-color:#f5f5f5d3;
+    color:rgba(0, 0, 0, 0.750);
+    font-family: "Zilla Slab";
+    font-weight: 600;
+    font-size: 1 rem;
+    padding: 1rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 4%;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: center;
+    padding: 3rem;
+}
+
+.footerInfoText {
+    font-size: 0.8rem; 
+    font-weight: 400;
+    text-align: justify;
+}
+
+#footerCenterText {
+    text-align: center;
+    font-size: 0.8rem; 
+    font-weight: 400;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#countDown {
+    background-color: #26282af1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4rem;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.455);
+}
+
+.countDownText {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#countDown div {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: whitesmoke;
+    font-family: "Zilla Slab";
+    text-align: center;
+    margin-left:4px;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.574), 0px -5px 35px rgba(61, 61, 61, 0.707), -5px 7px 5px rgba(0, 0, 0, 0.483);
+}
+
+.footer a {
+    font-weight: 600;
+}
+
+.agenda a {
+    color:rgba(255, 132, 0, 0.8); 
+}
+
+.agenda a:visited {
+    color:rgba(255, 132, 0, 0.8); 
+}
+
+
+/* PDF CONTAINER  */
+.PDFcard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.PDFcard {
+    border-radius: 8px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    max-width: 20%;
+    min-width: 300px;
+    max-height: 350px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 1rem; 
+    background-color: #ffffff; 
+    transform: scale(1);
+    transition: transform 500ms;
+}
+
+.PDFcard:hover {
+    transform: scale(1.05);
+}
+
+.PDFcard:hover {
+    box-shadow: 0 14px 26px -12px rgba(0, 0, 0, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.PDFcard header {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10;
+}
+
+.backgroundPapers .PDFcard {
+    margin-top: 0; 
+    margin-bottom: 3.2rem;
+}
+
+.socialMediaLinks svg {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    color: #26282af1;
+    transform: scale(1);
+    transition: transform 500ms;
+}
+
+.socialMediaLinks svg:hover {
+    transform: scale(1.2);
+}
+
+.agenda .comCard {
+    padding: 0;
+    margin: 0.8rem;
+    width: fit-content;
+    height: fit-content;
+    max-width: 30%;
+}
+
+.agenda .displayCommittes {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.agenda .paragraph {
+    padding-right: 20%;
+    padding-left: 20%;
+    margin: 1.2rem; 
+}
+
+
+@media screen and (max-width: 1220px) {
+    .pictureInText {
+         display: none; 
+         width: 0%;
+    }   
+    .textContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+/* Compatibility */
+@media screen and (max-width: 700px) {
+    .textContainer {
+        flex-direction: column;
+    }
+
+    .paragraph {
+        font-size: 1rem;
+    }
+
+    #countDown div {
+        font-size: 1.2rem;
+    }
+    #countDown {
+        padding: 6rem;
+    }
+
+    .greyButton {
+        font-size: 0.8rem;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+
+    .subSubTitle {
+        font-size: 1.25rem;
+    }
+
+    .landingPageTitle {
+        font-size:3.5rem;
+    }
+
+    .animatedText {
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+
+    .agenda .paragraph {
+        padding-right: 10%;
+        padding-left: 10%;
+
+    }
+    .agenda .comCard {
+        padding: 0;
+        margin: 0.8rem;
+        width: fit-content;
+        height: fit-content;
+        max-width: 100%;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        justify-items: stretch;
+        align-items: center;
+        padding: 1rem;
+        font-weight: 400;
+    }
+
+    .saveTheDateText {
+        image.png font-size: 2rem;
+    }
+
+    .footerInfoText, 
+    #footerCenterText {
+        display: none;
+    }
+
+    #quote {
+        font-size: 1rem;
+        padding: 3rem;
+    }
+
+    @supports(-webkit-touch-callout: none) {
+        .saveTheDateImage, 
+        .landingPage {
+          background-size: cover;
+          background-attachment: scroll; 
+        }
+    }
+    
+}

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AQMUN 2023 </title>
+
+
+    <!-- Stylesheets   -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shorthandcss@1.1.1/dist/shorthand.min.css" />
+
+    <link rel="stylesheet" href="assets/styles.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logos/logoBig.png" />
+
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="navBar.js" type="text/javascript" defer>    
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body class="muli sc5" style="background-color: white;">
+    <!-- NAV BAR -->
+    <nav class="fixedP w-100pc flex flex-column md-flex-row md-px-10 py-1 bg-light-white">
+        <div class="flex justify-between">
+            <a href="index.html" class="flex items-center p-2 mr-3 no-underline">
+                <img class="max-h-l2 w-auto" src="assets/images/logos/logoSmall.png" />
+            </a>
+            <a data-toggle="toggle-nav" data-target="#nav-items" href="#"
+                class="flex items-center ml-auto md-hidden anahuacColor hover-opacity-100 ease-300 p-1 m-3">
+                <i data-feather="menu"></i>
+            </a>
+        </div>
+        
+        
+        <div id="nav-items" class=" flex sm-w-100pc flex-column md-flex md-flex-row md-justify-end items-center">
+        
+            <a href="index.html" class="navBarElement hover-scale-up-1 ease-in-100 ease-out-800">Home</a>
+        
+            <a href="committees.html" class="navBarElement hover-scale-up-1 ease-in-100 ease-out-800">Committees</a>
+        
+            <a href="readTheDocs.html" class="navBarElement hover-scale-up-1 ease-in-100 ease-out-800">Read the Docs</a>
+        
+            <a href="#home" class="navBarElement hover-scale-up-1 ease-in-100 ease-out-800">Schedule</a>
+        
+            <a href="#home" class="navBarElement registerButton hover-scale-up-1 ease-in-100 ease-out-800">Register </a>
+        </div>
+        </nav>
+
+    <!-- HOME -->
+    <section class="landingPage" style=" background-image: url(assets/images/backgrounds/main/home.webp);">
+
+        <div class="mx-5 md-mx-l5">
+
+            <div class="landingPageTitle">
+                Anáhuac Querétaro <br>
+                Model of the United Nations <br> Conference
+            </div>
+
+            <div class="animatedText">
+                'For an inclusive, prosperous and fairer world'
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="countDown">
+        <div>
+            <div id="countDownTitle"> The AQMUN 2023 will start in </div>
+        </div>
+        <div class = "countDownText"> 
+            <div id="days"></div>
+            <div>days</div>
+            
+            </div>
+        </div>
+        <div class="countDownText">
+            <div id = "hours"></div>
+            <div>hours</div>
+        </div>
+        <div class="countDownText">
+            <div id = "minutes"></div>
+            <div>minutes and</div>
+        </div>
+        <div class="countDownText">
+            <div id = "seconds"></div>
+            <div>seconds</div>
+        </div>
+        
+
+    </section>
+
+    <!-- Welcome Message -->
+    <section class="p-10 md-p-l4">
+        <div class="flex flex-column md-flex-row mx-auto">
+            <div class="w-100pc md-w-70pc">
+                <div class="aWordBox">
+
+                    <h4 class="subSubTitle">
+                        Welcome, Delegates!
+                    </h4>
+
+                    <div class="paragraph">
+
+                        It is our pleasure to welcome you to the First Edition of the Anáhuac Querétaro Model of the
+                        United Nations Conference. Throughout the following three days, you will have the opportunity to
+                        discuss some of the world's most relevant affairs, and touch shoulders with knowledgeable,
+                        competent, and resilient individuals. Needless to mention, the Secretariat counts on every one
+                        of you to strive for a noteworthy participation in this event.
+
+
+                        <br><br>
+                        The objective of this Model is to introduce students to a globalized environment, where they can
+                        develop abilities such as public speaking, research skills, problem-solving, and negotiation; as
+                        well as the faculty to work with individuals that do not share the same ideals. The essence of
+                        this Conference is to ensure that all participants recognize that it is only through individual
+                        actions and tolerance, that we can make the world a more prosperous, inclusive, and fairer
+                        place.
+
+                        <br><br>
+                        Our best regards, <br>
+
+                        The AQMUN Secretariat
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-90pc md-w-30pc logoLandingPage"
+                style=" background-image: url(assets/images/logos/logoBig.png); ">
+            </div>
+        </div>
+    </section>
+
+    <!-- SAVE THE DATE -->
+    <section class="saveTheDateImage md-py-10" style="background-image: 
+        url(assets/images/backgrounds/main/saveTheDate.webp);">
+        <div class=" md-w-70pc mx-auto hover-scale-up-1 ease-900">
+            <h2 class="saveTheDateText">
+                Save the date, <br> <span class="border-b bc-orange bw-4 zilla"> March 22nd, 23rd 24th</span> </h2>
+        </div>
+    </section>
+
+    <!-- A WORD -->
+    <section class="p-10 md-p-l4">
+
+        <!-- Secretary General -->
+        <h2 class="subtitle" data-aos="fade-right" data-aos-duration="1500">A word from the secretary General:</h2>
+
+
+        <div class="textContainer">
+            <div class="w-100pc ">
+                <div class=" aWordBox">
+
+                    <h4 class="subSubTitle">
+                        Pato
+                    </h4>
+
+                    <div class="paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. dipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. adipiscing elit, sed do eiusmod
+                        tempor
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-90pc md-w-30pc pictureInText" style=" 
+            background-image: url(assets/images/auxiliaryImages/people/SecretaryGeneral.png); ">
+            </div>
+        </div>
+
+        <!-- Undersecretary General -->
+        <h2 data-aos="fade-right" data-aos-duration="2000" class="leftText subtitle">A word from the Undersecretary
+            General:</h2>
+
+        <div class="textContainer">
+            <div class="md-w-30pc pictureInText" style=" 
+            background-image: url(assets/images/auxiliaryImages/people/UndersecretaryGeneral.png); ">
+            </div>
+            <div class="w-100pc md-w-70pc">
+                <div class=" aWordBox">
+
+
+                    <h4 class="subSubTitle" style="display: flex; justify-content: flex-end;">
+                        Alfredo
+                    </h4>
+
+                    <div class="paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. dipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. adipiscing elit, sed do eiusmod
+                        tempor
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- F.A.Q. -->
+    <section class="FAQ">
+        <div id="slider-1">
+
+            <div class="flex roboto justify-center items-center flex-column text-center bg-light-white black-txt"
+                style=" padding-top: 5%; ">
+                <h2 class="subtitle">What is MUN?</h2>
+                <p class="paragraph my-5 " style="padding-left: 20%; padding-right: 20%; ">
+                    MUN stands for Model of the United Nations. It is a simulation of the UN, where students from all
+                    over the country come together to discuss and debate current issues.
+                </p>
+            </div>
+
+            <div class="flex roboto justify-center items-center flex-column text-center bg-light-white black-txt"
+                style=" padding-top: 5%; ">
+                <h2 class="subtitle">Who is allowed to participate in this conference?</h2>
+                <p class="paragraph my-5 " style="padding-left: 20%; padding-right: 20%;">
+                    AQMUN is open to high school and university students from all over the country who are ambitious,
+                    curious, and outgoing. We encourage students with altruistic tendencies to join us and contribute to
+                    making the world a more inclusive, prosperous and fairer world.
+                </p>
+            </div>
+
+            <div class="flex roboto justify-center items-center flex-column text-center bg-light-white black-txt"
+                style=" padding-top: 5%; ">
+                <h2 class="subtitle">Benefits</h2>
+                <p class="paragraph my-5 " style="padding-left: 20%; padding-right: 20%;">
+                    MUN aims to educate students about current events, international relations, diplomacy, and the
+                    United Nations agenda. Along with knowledge of the world we live in, participants will develop
+                    skills such as public speaking, presentation, persuasion, situation analysis, research, and critical
+                    thinking.
+                </p>
+            </div>
+
+            <div class="flex roboto justify-center items-center flex-column text-center bg-light-white black-txt"
+                style="padding-top: 5%; ">
+                <h2 class="subtitle">Committee election</h2>
+                <p class="paragraph my-5 " style="padding-left: 20%; padding-right: 20%; padding-bottom: 2%; ">
+                    Overall, your preference should depend on your interests and the topics you are most passionate
+                    about. We encourage you to research the topics and committees before making your decision. Once you
+                    have picked your committe, you can register for it by clicking on the top-right corner button.
+                </p>
+            </div>
+
+        </div>
+        <!-- Slide buttons-->
+        <ul class="absolute list-none w-100pc flex justify-between top-50pc">
+            <li><button
+                    class="prev ml-10 bg-transparent flex justify-center items-center p-2 focus-outline-none no-border black-txt "><i
+                        data-feather="chevrons-left"></i></button></li>
+            <li><button
+                    class="next mr-10 bg-transparent flex justify-center items-center p-2 outline-none no-border black-txt"><i
+                        data-feather="chevrons-right"></i></button></li>
+        </ul>
+    </section>
+
+    <!-- Agenda -->
+    <section class="agenda">
+
+        <div class="displayCommittes m-l3">
+
+            <h2 class="subtitle">Agenda for this UN Conference</h2>
+            <p class="paragraph">
+                Below you shall find some of the topics that will be discussed in this Conferece. Each topic was
+                carefully selected so as to pose a challenge to delegates and to incentivize the flow of new ideas.
+
+
+                <a href="committees.html">
+                    Click here to see the complete agenda.
+                </a>
+            </p>
+
+            <div class="comCard">
+                <div class="topicsLandingPage hover-scale-up-1 ease-500 hover-shadow-3 ">
+                    Obligation to Negotiation Access to the Pacific Ocean (Bolivia v. Chile)
+                </div>
+            </div>
+
+            <div class="comCard">
+                <div class="topicsLandingPage hover-scale-up-1 ease-500 hover-shadow-3 ">
+                    Protecting and supervising human rights of climate refugees
+                </div>
+            </div>
+
+            <div class="comCard">
+                <div class="topicsLandingPage hover-scale-up-1 ease-500 hover-shadow-3 ">
+                    Allegations of Genocide under the Convention on the Prevention and Punishment of the Crime of Genocide (Ukraine v. Russian Federation)
+                </div>
+            </div>
+
+            <div class="comCard">
+                <div class="topicsLandingPage hover-scale-up-1 ease-500 hover-shadow-3 ">
+                    Dealing with the economic crisis in the globalized world
+                </div>
+            </div>
+
+            <div class="comCard">
+                <div class="topicsLandingPage hover-scale-up-1 ease-500 hover-shadow-3 ">
+                    Desplazamiento en Centroamérica debido a la alza del crimen organizado. 
+                </div>
+            </div>
+
+            <div class="comCard">
+                <div class="topicsLandingPage hover-scale-up-1 ease-500 hover-shadow-3 ">
+                    Repression of Uyghurs in Xinjiang 
+                </div>
+            </div>
+
+            <div class="comCard">
+                <div class="topicsLandingPage hover-scale-up-1 ease-500 hover-shadow-3 ">
+                    Mejorando el acceso a la educación de las mujeres en el medio oriente 
+                </div>
+            </div>
+
+            <div class="comCard">
+                <div class="topicsLandingPage hover-scale-up-1 ease-500 hover-shadow-3 ">
+                    Food Security in Refugee Camps in Yemen 
+                </div>
+            </div>
+
+            <div class="comCard">
+                <div class="topicsLandingPage hover-scale-up-1 ease-500 hover-shadow-3 ">
+                    Addressing Cyber Crime as a threat to the international system
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- footer 2 -->
+    <section class="footer">
+        <div>
+            Contact Us
+            <div class="socialMediaLinks">
+
+                <a href="" target="_blank"> <i data-feather="mail"></i> </a>
+                <a href="https://www.facebook.com/anahuacqro" target="_blank"> <i data-feather="facebook"></i> </a>
+                <a href="https://www.instagram.com/anahuacqro" target="_blank"> <i data-feather="instagram"></i> </a>
+                <a href="https://twitter.com/anahuacqro "target="_blank"> <i data-feather="twitter"></i> </a>
+
+            </div>
+        </div>
+
+        <div>
+            'For a more inclusive, prosperous and fairer world'
+
+            <div id = "footerCenterText">
+                Anáhuac Querétaro Model United Nations Conference 2023
+            </div>
+        </div>
+
+        <div>
+            Universidad Anáhuac Querétaro
+            <br>
+            <div class="footerInfoText">
+                Calle Universidades I, Kilómetro 7, Fracción 2, El Marqués, 76230 Santiago de Querétaro, Qro.
+            </div>
+
+        </div>
+    </section>
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script>
+        
+        let currentDate = new Date();
+        let dateOfEvent = Date.parse("2023-03-23");
+
+        if (dateOfEvent < currentDate) {
+            document.getElementById("days").innerHTML = 0;
+            document.getElementById("hours").innerHTML = 0;
+            document.getElementById("minutes").innerHTML = 0;
+            document.getElementById("seconds").innerHTML = 0;
+        }
+        else {
+
+            setInterval(function () {
+                let currentDate = new Date();
+
+                let days = (dateOfEvent - currentDate) / (1000 * 60 * 60 * 24);
+                let hours = (dateOfEvent - currentDate) / (1000 * 60 * 60);
+                let minutes = (dateOfEvent - currentDate) / (1000 * 60);
+                let seconds = (dateOfEvent - currentDate) / 1000;
+
+                days = Math.floor(days);
+                hours = Math.floor(hours % 24);
+                minutes = Math.floor(minutes % 60);
+                seconds = Math.floor(seconds % 60);
+
+                document.getElementById("days").innerHTML = days;
+                document.getElementById("hours").innerHTML = hours;
+                document.getElementById("minutes").innerHTML = minutes;
+                document.getElementById("seconds").innerHTML = seconds;
+                
+            }, 1000);
+        }
+        
+
+
+    </script>
+
+</body>
+
+</html>
