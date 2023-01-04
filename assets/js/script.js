@@ -3,10 +3,11 @@ $(document).ready(function () {
     // toggle mobile menu
     $('[data-toggle="toggle-nav"]').on('click', function () {
         $(this).closest('nav').find($(this).attr('data-target')).toggleClass('hidden');
-        return true;
+        return false;
     });
 
-    // feather icons
+    $('[data-toggle="toggle-nav"]').closest('nav').find($('[data-toggle="toggle-nav"]').attr('data-target')).toggleClass('hidden');
+
     feather.replace();
 
     // smooth scroll

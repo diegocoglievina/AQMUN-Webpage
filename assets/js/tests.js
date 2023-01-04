@@ -1,5 +1,0 @@
-newFunction();
-
-function newFunction() {
-
-}
