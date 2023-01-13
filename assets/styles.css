@@ -316,7 +316,7 @@ a img {
 .paragraph {
     font-family: "ROBOTO";
     font-size: 1.2rem;
-    color: rgba(0, 0, 0, 0.613);
+    color: rgba(0, 0, 0, 0.710);
     font-weight: 600;
     text-align: justify;
     line-break: normal;
@@ -498,6 +498,7 @@ a img {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
     max-width: 20%;
     min-width: 300px;
+    min-height: 300px;
     max-height: 350px;
     overflow: hidden;
     transition: box-shadow 0.3s;
@@ -617,15 +618,18 @@ schedule .committeeName {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     margin: 1rem;
     content: center;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
-#registrationLayout .comCard a {
-    color: #26282acb;
-    font-weight: 600;
+
+.registration .aWordBox {
+    padding-left: 12rem;
+    padding-right: 12rem;
+    min-width: 300px;
+    text-align: justify;
 }
 
 .overViewText {
@@ -653,6 +657,13 @@ schedule .committeeName {
     }
     .scheduleElements {
         font-size: 0.8rem;
+    }
+
+    .registration .aWordBox {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        min-width: 300px;
+        text-align: justify;
     }
 
     #registrationLayout {
