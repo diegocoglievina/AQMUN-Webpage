@@ -502,8 +502,8 @@ a img {
     transition: box-shadow 0.3s;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     padding: 1rem; 
     background-color: #ffffff; 
     transform: scale(1);
@@ -629,6 +629,12 @@ schedule .committeeName {
     padding-right: 12rem;
     min-width: 300px;
     text-align: justify;
+}
+
+.ING-ES .aWordBox {
+
+    min-width: 300px;
+    text-align: center;
 }
 
 @media screen and (max-width: 1220px) {
