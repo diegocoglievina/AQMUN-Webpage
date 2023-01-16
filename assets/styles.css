@@ -180,10 +180,6 @@ a {
     font-family: 'Zilla Slab', serif;
 }
 
-a:hover,
-a:active {
-    /* border-bottom: none; */
-}
 a:active {
     color:#ffffff; 
 }
@@ -203,14 +199,6 @@ a img {
         width: 30%;
     }
 }
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and () {
-    .paragraph {
-        font-size: small;
-    }
-}
-
 
 .committeeName {
     display: inline-block;
@@ -653,8 +641,14 @@ schedule .committeeName {
         flex-direction: column;
         padding: 0%;
     }
+
     .scheduleElements {
         font-size: 0.8rem;
+    }
+
+    .scheduleElement {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .registration .aWordBox {
@@ -662,6 +656,10 @@ schedule .committeeName {
         padding-right: 2rem;
         min-width: 300px;
         text-align: justify;
+    }
+
+    .scheduleElement div {
+        font-size: 0.8rem;
     }
 
     #registrationLayout {
@@ -674,7 +672,8 @@ schedule .committeeName {
     }
 
     time {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+        text-align: center;
     }
 
     schedule .comCard {
@@ -748,7 +747,7 @@ schedule .committeeName {
     }
 
     .saveTheDateText {
-        image.png font-size: 2rem;
+        font-size: 2rem;
     }
 
     .footerInfoText, 
