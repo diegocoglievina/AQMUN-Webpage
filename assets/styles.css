@@ -12,11 +12,11 @@
 .sc5::-webkit-scrollbar-track {
     border-radius: 0px;
     background-color: #ffffff00;
-    
+
 }
 
 .sc5::-webkit-scrollbar-thumb {
-    background-color: #ff8400;
+    background-color: #FF5900;
     border-radius: 4px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .anahuacColor2 {
-    color: #FF8400;
+    color: #FF5900;
 }
 
 .bg-light-white {
@@ -42,7 +42,7 @@
 } */
 
 /* .bg-anahuac2 {
-    background-color: #FF8400;
+    background-color: #FF5900;
 } */
 
 /* .bg-light-black {
@@ -88,9 +88,9 @@
 }
 
 .FAQ {
-    width: 100%; 
+    width: 100%;
     background-color: #f5f5f5d3;
-    position: relative; 
+    position: relative;
 }
 
 .no-border {
@@ -178,10 +178,12 @@ a {
     text-decoration: none;
     font-weight: 500;
     font-family: 'Zilla Slab', serif;
+    color:#26282af1;
+    font-weight: bold;
 }
 
 a:active {
-    color:#ffffff; 
+    color:#ffffff;
 }
 
 a:focus {
@@ -206,7 +208,7 @@ a img {
     padding: 4px 16px;
     margin: 0 0 20px;
     font-family: 'Zilla Slab', serif;;
-    background-color: #FF8400;
+    background-color: #FF5900;
     color: #ffffff;
     font-size: 1rem;
     max-width: 85%;
@@ -234,9 +236,9 @@ a img {
     color: #ffffff;
     font-size: 1.5rem;
     padding: 6rem;
-    background-color: #26282ad5; 
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
+    background-color: #26282ad5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
 }
 
@@ -283,7 +285,7 @@ a img {
     font-family: 'Zilla Slab', serif;;
     margin-bottom: 1.25rem;
     font-size: 1.5rem;
-    color: #FF8400;
+    color: #FF5900;
     font-weight: 500;
 }
 
@@ -312,7 +314,7 @@ a img {
 }
 
 .pictureInText {
-    background-color: rgba(255, 132, 0, 0.8);
+    background-color: #FF5900;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -358,7 +360,7 @@ a img {
 }
 
 .registerButton {
-    background-color: #FF8400;
+    background-color: #FF5900;
     color: #ffffff;
     border: none;
     border-radius: 4px;
@@ -417,14 +419,14 @@ a img {
 }
 
 .footerInfoText {
-    font-size: 0.8rem; 
+    font-size: 0.8rem;
     font-weight: 400;
     text-align: justify;
 }
 
 #footerCenterText {
     text-align: center;
-    font-size: 0.8rem; 
+    font-size: 0.8rem;
     font-weight: 400;
 }
 
@@ -465,11 +467,11 @@ a img {
 }
 
 .agenda a {
-    color:rgba(255, 132, 0, 0.8); 
+    color:#FF5900;
 }
 
 .agenda a:visited {
-    color:rgba(255, 132, 0, 0.8); 
+    color:#FF5900;
 }
 
 /* PDF CONTAINER  */
@@ -484,18 +486,18 @@ a img {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
     max-width: 20%;
     min-width: 300px;
-    min-height: 300px;
-    max-height: 350px;
+
     overflow: hidden;
     transition: box-shadow 0.3s;
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    padding: 1rem; 
-    background-color: #ffffff; 
+    padding: 1rem;
+    background-color: #ffffff;
     transform: scale(1);
     transition: transform 500ms;
+    min-height: 462px;
 }
 
 .PDFcard:hover {
@@ -513,7 +515,7 @@ a img {
 }
 
 .backgroundPapers .PDFcard {
-    margin-top: 0; 
+    margin-top: 0;
     margin-bottom: 3.2rem;
 }
 
@@ -544,13 +546,13 @@ a img {
 .agenda .displayCommittes {
     display: flex;
     flex-direction: row;
-    
+
 }
 
 .agenda .paragraph {
     padding-right: 20%;
     padding-left: 20%;
-    margin: 1.2rem; 
+    margin: 1.2rem;
 }
 
 schedule {
@@ -613,7 +615,7 @@ schedule .committeeName {
     font-family: "Zilla Slab", serif;
     font-size: 1.2rem;
     font-weight: 500;
-    color: #FF8400;
+    color: #FF5900;
 }
 
 .registration .aWordBox {
@@ -631,9 +633,9 @@ schedule .committeeName {
 
 @media screen and (max-width: 1220px) {
     .pictureInText {
-         display: none; 
+         display: none;
          width: 0%;
-    }   
+    }
     .textContainer {
         flex-direction: column;
         width: 100%;
@@ -687,7 +689,7 @@ schedule .committeeName {
 
     .paragraph {
         font-size: 1rem;
-        padding: 0; 
+        padding: 0;
     }
 
     #countDown div {
@@ -713,7 +715,7 @@ schedule .committeeName {
 
     .landingPageTitle {
         font-size:1.7rem;
-        text-align: center; 
+        text-align: center;
         margin-bottom: 1rem;
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.713), 0px -5px 35px rgba(29, 29, 29, 0.971), -5px 5px 5px rgba(0, 0, 0, 0.653);;
     }
@@ -723,7 +725,7 @@ schedule .committeeName {
         font-size: 1.3rem;
         font-weight: 600;
         color: whitesmoke;
-        margin: 1rem; 
+        margin: 1rem;
     }
 
     .agenda .paragraph {
@@ -754,7 +756,7 @@ schedule .committeeName {
         font-size: 2rem;
     }
 
-    .footerInfoText, 
+    .footerInfoText,
     #footerCenterText {
         display: none;
     }
@@ -765,11 +767,11 @@ schedule .committeeName {
     }
 
     @supports(-webkit-touch-callout: none) {
-        .saveTheDateImage, 
+        .saveTheDateImage,
         .landingPage {
           background-size: cover;
-          background-attachment: scroll; 
+          background-attachment: scroll;
         }
     }
-    
+
 }
